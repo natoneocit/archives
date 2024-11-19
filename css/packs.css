@@ -1,0 +1,70 @@
+body {
+    background-color: white;
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+[data-key="aka_tnp"] {
+    font-size: 13px;
+}
+@font-face {
+    font-family: Abstract;
+    src: url('/fonts/ABSTRACT.TTF');
+}
+.firsttitle {
+    font-family: Abstract;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.logo {
+    width: 750px;
+}
+.container {
+    text-decoration: none;
+    padding: 5px;
+    width: 350px;
+    height: auto;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+body.dark .container {
+    border-color: white;
+}
+.container:hover {
+    cursor: pointer;
+}
+.container.wide {
+    width: 727px;
+}
+.container.wide .icon {
+    margin-left: -217px;
+}
+.container.wide > .icon > .image.big {
+    margin-left: 10px;
+}
+.container.wide .image.big {
+    width: 650px;
+}
+.container .description {
+    font-size: 12px;
+}
+.container.after {
+    margin-left: 15px;
+}
+.container .icon {
+    position: absolute;
+    width: 64px;
+    margin-top: -30px;
+    margin-left: -30px;
+}
+.container .author {
+    color: grey;
+    font-size: 11px;
+}
+.container .image {
+    width: 350px;
+}

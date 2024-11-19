@@ -1,0 +1,26 @@
+body.dark {
+    background-color: #1d2022 !important;
+    color: white;
+}
+body.dark .window .title-bar {
+    background: linear-gradient(0deg,#131313,#676967);
+    text-shadow: 1px 1px #333333;
+    border: 0;
+}
+body.dark .window button:disabled {
+    background: #1f1f1f;
+}
+body.dark .window button:not(:disabled):hover {
+    box-shadow: none;
+    background: #4e4e4e;
+}
+body.dark .window button {
+    border: 0;
+    background: #3a3a3a;
+    color: white;
+}
+body.dark .window {
+    color: white;
+    background: #131313;
+    box-shadow: none;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link id="styles" rel="stylesheet" href="/css/98.css">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/index_dark.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+</head>
+<body onload="start(), start_lang()">
+
+  <div class="creditscontainer" id="creditscontainer">
+    <div class="window credits" style="width: 200px">
+      <div class="title-bar">
+        <div class="title-bar-text" data-key="window_settings_title"></div>
+        <div class="title-bar-controls">
+          <button aria-label="Close" onclick="close_credits()"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <p>There's so much room for activities!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="settingscontainer" id="settingscontainer">
+    <div class="window settings" style="width: 200px">
+      <div class="title-bar">
+        <div class="title-bar-text" data-key="window_credits_title"></div>
+        <div class="title-bar-controls">
+          <button aria-label="Close" onclick="close_settings()"></button>
+        </div>
+      </div>
+      <div class="window-body">
+        <label>Theme:</label><select>
+          <option>Windows 7</option>
+          <option>Windows XP</option>
+          <option>Classic</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+    <div class="container">
+      <div class="logocontainer">
+        <div class="window eightyone" style="width: 200px">
+          <div class="title-bar">
+            <div class="title-bar-text" data-key="window_ooxei_title"></div>
+            <div class="title-bar-controls">
+            </div>
+          </div>
+          <div class="window-body">
+            <p>There's so much room for activities!</p>
+          </div>
+        </div>
+        <div class="logocont">
+          <div class="centah">
+            <img class="logo" src="/img/logo.png"><br>
+            <img onclick="animation_ru(), setLocale('ru')" id="lang-ru" src="/img/rus.png">
+            <img onclick="animation_en(), setLocale('en')" id="lang-en" src="/img/eng.png">
+          </div>
+
+        </div>
+        <div class="window socials" style="width: 200px">
+            <div class="title-bar">
+              <div class="title-bar-text" data-key="window_socials_title"></div>
+              <div class="title-bar-controls">
+              </div>
+            </div>
+            <div class="window-body">
+              <p>There's so much room for activities!</p>
+            </div>
+          </div>
+      </div>
+
+            
+          <div class="window links">
+            <div class="title-bar">
+              <div class="title-bar-text" data-key="window_links_title"></div>
+              <div class="title-bar-controls">
+              </div>
+            </div>
+            <div class="window-body">
+              <button disabled data-key="window_links_button_games"></button>
+              <button id="button_updates" data-key="window_links_button_updates"></button>
+              <button id="button_packs" data-key="window_links_button_packs"></button>
+              <button id="button_credits" data-key="window_links_button_credits"></button>
+              <button id="button_settings" data-key="window_links_button_settings"></button>
+            </div>
+          </div>
+
+          <div class="window frame">
+            <div class="title-bar">
+              <div class="title-bar-text" id="iframe-title"></div>
+              <div class="title-bar-controls">
+              </div>
+            </div>
+            <div class="window-body">
+              <iframe id="iframe" src="/pages/welcome/index.html"></iframe>
+            </div>
+          </div>
+    </div>
+</body>
+<script src="/js/index.js"></script>
+<script src="/js/lang.js" defer></script>
+</html>

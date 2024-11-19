@@ -1,0 +1,32 @@
+{
+    "window_socials_title": "Социалы",
+    "window_ooxei_title": "88x31-ых",
+    "window_links_title": "Ссылки",
+    "window_credits_title": "Ведущие",
+    "footer_foot1": "cope",
+
+    "window_links_button_games": "Игры",
+    "window_links_button_updates": "Обновления",
+    "window_links_button_packs": "Пакеты",
+    "window_links_button_credits": "Ведущие",
+    "window_links_button_settings": "Настройка",
+
+    "by_user": "от пользователь",
+    "by_team": "от командой",
+
+    "aka_tnp": "(ещё назван 'Ностальгическая Пака')",
+
+    "tnp_webs_title": "Веб",
+    "cont_tnp_desc_geckium": "— это тема Firefox, которая имитирует старые версии Google Chrome.",
+    "cont_tnp_desc_geckium_alt": "Geckium — это тема Firefox, которая имитирует старые версии Google Chrome.",
+    "cont_tnp_desc_v3": "— это сценарий на основе ES5, который возвращает макет на YouTube 2013 года на основе языка дизайна Google JFK.",
+    "cont_tnp_desc_v3_alt": "Проект VORAPIS (V3) — это сценарий на основе ES5, который возвращает макет 'Hitchhiker' на YouTube 2013 года на основе языка дизайна Google JFK. Это ваше альтернативное решение для быстрого и отзывчивого фронта YouTube, изготовленного с помощью производительности. с красотой, возвращая лучшую веб -макет Google. ",
+
+    "cont_tnp_button_info": "Информация",
+    "cont_tnp_button_install": "Установить",
+    "goback": "Вернуть назад",
+
+    "badge_beta": "БЕТА",
+    "badge_alpha": "АЛЬФА",
+    "badge_unfinished": "НЕДОДЕЛАНО"
+}

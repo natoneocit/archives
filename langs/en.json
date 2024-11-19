@@ -1,0 +1,34 @@
+{
+    "window_socials_title": "Socials",
+    "window_ooxei_title": "88x31's",
+    "window_links_title": "Links",
+    "window_credits_title": "Credits",
+    "footer_foot1": "Copyright",
+
+    "window_links_button_games": "Games",
+    "window_links_button_updates": "Updates",
+    "window_links_button_packs": "Packs",
+    "window_links_button_credits": "Credits",
+    "window_links_button_settings": "Settings",
+    
+
+    "by_user": "by",
+    "by_team": "by the team of",
+
+    "aka_tnp": "",
+
+    "tnp_webs_title": "Webs",
+    "cont_tnp_desc_geckium": "is a Firefox theme that mimics older versions of Google Chrome.",
+    "cont_tnp_desc_geckium_alt": "Geckium is the Firefox theme that mimics older versions of Google Chrome.",
+    "cont_tnp_desc_v3": "is an ES5-based script that brings back the 2013 'Hitchhiker' YouTube layout based on Google JFK design language.",
+    "cont_tnp_desc_v3_alt": "Project VORAPIS (V3) is an ES5-based script that brings back the 2013 'Hitchhiker' YouTube layout based on Google JFK design language. This is your alternative solution to a fast and responsive YouTube frontend, made by combining performance with beauty, bringing back Google's best web layout.",
+
+    "cont_tnp_button_info": "Info",
+    "cont_tnp_button_install": "Install",
+    "goback": "Go back",
+
+    "badge_beta": "BETA",
+    "badge_alpha": "ALPHA",
+    "badge_unfinished": "UNFINISHED"
+
+}
