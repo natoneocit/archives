@@ -8,10 +8,16 @@
       body.dark .window-body {
         background: #242424;
       }
+      .window-body {
+        padding: 6px;
+      }
       .window button {
         transition: 0.5s;
       }
       body.dark [role="button"]::before, body.dark .window button::before {
         background: none;
       } 
+      body, button, input, select {
+        cursor: url('/img/cursors/7/Default.png'), auto !important;
+      }
 /*# sourceMappingURL=7.css.map */

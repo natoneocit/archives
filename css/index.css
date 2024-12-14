@@ -12,11 +12,13 @@ body {
     display: inline-grid;
     width: 1000px;
 }
+button, input, select { cursor: url('/img/cursors/default/Default.png'), auto; }
 #creditscontainer, #settingscontainer {
     display: none;
     justify-content: center;
     align-items: center;
     position: fixed;
+    z-index: 100;
     background: rgba(0,0,0,0.5);
     width: 100vw;
     height: 100vh;

@@ -3,6 +3,7 @@
     "window_ooxei_title": "88x31's",
     "window_links_title": "Links",
     "window_credits_title": "Credits",
+    "window_settings_title": "Settings",
     "footer_foot1": "Copyright",
 
     "window_links_button_games": "Games",
@@ -29,6 +30,10 @@
 
     "badge_beta": "BETA",
     "badge_alpha": "ALPHA",
-    "badge_unfinished": "UNFINISHED"
+    "badge_unfinished": "UNFINISHED",
 
+
+    "window_title_updates": "Updates",
+
+    "update_121324_title": "12/13/2024 [REAL COMEBACK]"
 }

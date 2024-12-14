@@ -4,18 +4,18 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link id="styles" rel="stylesheet" href="/css/98.css">
+    <title>natively.neocities</title>
+    <link id="styles" rel="stylesheet">
     <link rel="stylesheet" href="/css/index.css">
     <link rel="stylesheet" href="/css/index_dark.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 </head>
-<body onload="start(), start_lang()">
+<body onload="start(); start_lang(); themesettings(); title()">
 
   <div class="creditscontainer" id="creditscontainer">
     <div class="window credits" style="width: 200px">
       <div class="title-bar">
-        <div class="title-bar-text" data-key="window_settings_title"></div>
+        <div class="title-bar-text" data-key="window_credits_title"></div>
         <div class="title-bar-controls">
           <button aria-label="Close" onclick="close_credits()"></button>
         </div>
@@ -29,16 +29,16 @@
   <div class="settingscontainer" id="settingscontainer">
     <div class="window settings" style="width: 200px">
       <div class="title-bar">
-        <div class="title-bar-text" data-key="window_credits_title"></div>
+        <div class="title-bar-text" data-key="window_settings_title"></div>
         <div class="title-bar-controls">
           <button aria-label="Close" onclick="close_settings()"></button>
         </div>
       </div>
       <div class="window-body">
-        <label>Theme:</label><select>
-          <option>Windows 7</option>
-          <option>Windows XP</option>
-          <option>Classic</option>
+        <label>Theme: </label><select onchange="themeSelection(event)">
+          <option id="7" value="7">Windows 7</option>
+          <option id="XP" value="XP">Windows XP</option>
+          <option id="98" value="98">Classic</option>
         </select>
       </div>
     </div>
@@ -106,4 +106,8 @@
 </body>
 <script src="/js/index.js"></script>
 <script src="/js/lang.js" defer></script>
+<script
+			  src="https://code.jquery.com/jquery-3.7.1.js"
+			  integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4="
+			  crossorigin="anonymous"></script>
 </html>

@@ -3,13 +3,14 @@
     "window_ooxei_title": "88x31-ых",
     "window_links_title": "Ссылки",
     "window_credits_title": "Ведущие",
+    "window_settings_title": "Настройки",
     "footer_foot1": "cope",
 
     "window_links_button_games": "Игры",
     "window_links_button_updates": "Обновления",
     "window_links_button_packs": "Пакеты",
     "window_links_button_credits": "Ведущие",
-    "window_links_button_settings": "Настройка",
+    "window_links_button_settings": "Настройки",
 
     "by_user": "от пользователь",
     "by_team": "от командой",

@@ -8,8 +8,12 @@ function start() {
     const buttoncredits = document.getElementById("button_credits");
     buttoncredits.addEventListener("click", open_credits);
 
+    const buttonsettings = document.getElementById("button_settings");
+    buttonsettings.addEventListener("click", open_settings);
+
     /* Background change, theme change... */
 const hour = new Date().getHours();
+const theme = localStorage.getItem("theme");
 if (hour > 5) {
   document.body.style.background = "url('/img/bg/EPIC_XP_v2_1.jpg')"; 
 }
@@ -17,33 +21,62 @@ if (hour > 8) {
   document.body.style.background = "url('/img/bg/EPIC_XP_v2_2.jpg')"; 
 }
 if (hour > 15) {
-  document.body.style.background = "url('/img/bg/EPIC_XP_v2_3.jpg')"; 
+  if (theme == "XP" || theme == "7") {
+    document.getElementsByClassName("window").style = "--window-background-color: #805ba5;";
+    document.body.style.background = "url('/img/bg/EPIC_XP_v2_3.jpg')"; 
+  }
+  if (theme == "98") {
+    document.body.style.background = "rgb(152, 88, 0)"; 
+  }
 }
 if (hour > 17 || hour < 5) {
   document.body.style.background = "url('/img/bg/EPIC_XP_v2_4.jpg')";
   document.body.classList.add("dark");
 }
 }
-
-$(document).ready(function() {
-  // Function to update the existing div with the iframe title
-  function updateIframeTitle() {
-      console.log('updateIframeTitle called'); // Debugging message
-      let title = $('#iframe').attr('title') || 'No title set';
-      console.log('Fetched Title:', title); // Debugging message
-      $('#iframe-title').text('Iframe Title: ' + title);
-  }
-
-  // Update title when the iframe loads
-  $('#iframe').on('load', function() {
-      console.log('Iframe content loaded');
-      updateIframeTitle();  // Call the update function
-  });
+function title() {
+  $(document).ready(function() {
+    // Function to update the existing div with the iframe title
+    function updateIframeTitle() {
+        console.log('updateIframeTitle called'); // Debugging message
+        let title = $('#iframe').attr('title') || 'No title set';
+        console.log('Fetched Title:', title); // Debugging message
+        $('#iframe-title').text('Iframe Title: ' + title);
+    }
   
-  // Also update when switching back to the page
-  $(window).on('focus', updateIframeTitle);
-});
+    // Update title when the iframe loads
+    $('#iframe').on('load', function() {
+        console.log('Iframe content loaded');
+        updateIframeTitle();  // Call the update function
+    });
+    
+    // Also update when switching back to the page
+    $(window).on('focus', updateIframeTitle);
+  });
+}
+function themeSelection(e) {
+  let style = document.getElementById("styles");
+  style.href = "/css/" + e.target.value + ".css";
+  localStorage.setItem("theme", e.target.value);
+}
 
+function themesettings() {
+  const theme = localStorage.getItem("theme");
+  const style = document.getElementById("styles");
+
+  if (theme == "98") {
+    style.href = "/css/98.css";
+    document.getElementById("98").selected = true;
+}
+  if (theme == "XP" || theme == null || theme == undefined) {
+    style.href = "/css/XP.css";
+    document.getElementById("XP").selected = true;
+  }
+  if (theme == "7") {
+    style.href = "/css/7.css";
+    document.getElementById("7").selected = true;
+  }
+}
 function open_updates() {
     let iframex = document.getElementById("iframe");
     iframex.src = "/pages/updates";
