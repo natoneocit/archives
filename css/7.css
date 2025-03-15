@@ -4,6 +4,12 @@
       body {
         background: url("/img/bg/7/def.jpg") no-repeat !important;
       }
+      body .window.notif {
+        --window-background-color: rgb(179, 168, 15);
+      }
+      body.dark .window.notif {
+        --window-background-color: rgb(54, 51, 5);
+      }
       body.dark {
         --window-background-color: rgb(20, 37, 59);
         background: url("/img/bg/7/night.jpg") top center no-repeat #1d2022 !important;

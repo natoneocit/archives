@@ -214,7 +214,7 @@
   </div>
 
   <div class="creditscontainer" id="creditscontainer">
-    <div class="window credits active">
+    <div class="window credits active" style="width: 260px">
       <div class="title-bar">
         <div class="title-bar-text" data-key="window_credits_title"></div>
         <div class="title-bar-controls">
@@ -222,14 +222,21 @@
         </div>
       </div>
       <div class="window-body">
+        <section class="tabs" style="max-width: 500px">
+          <menu role="tablist" aria-label="Sample Tabs">
+            <button role="tab" aria-selected="true" aria-controls="tab-A">Credits</button>
+          </menu>
+          <!-- the tab content -->
+          <article role="tabpanel" id="tab-A">
           <a href="https://botoxparty.github.io/XP.css/"><span data-key="window_credits_desc1"></span></a> <span data-key="by_user"></span> botoxparty</span><br>
           <a href="https://khang-nd.github.io/7.css/"><span data-key="window_credits_desc2"></span></a> <span data-key="by_user"></span> Khang (khang-nd)</span><br>
           <a href="https://jdan.github.io/98.css/"><span data-key="window_credits_desc3"></span></a> <span data-key="by_user"></span> jdan</span><br>
           <span data-key="window_credits_desc4"></span> <a href="https://flamingtext.com">FlamingText</a></span><br>
           <a href="https://www.deviantart.com/epiczone/art/Epic-Xp-v2-Dynamic-Wallpaper-Free-997966107"><span data-key="window_credits_desc5"></span></a> <span data-key="by_user"></span> EpicZone</span><br>
-          <a href="https://www.deviantart.com/samuelalbert64412/art/Windows-7-Night-Wallpaper-892696233"><span data-key="window_credits_desc6"></span></a> <span data-key="by_user"></span> samuelalbert64412</span><br>
+          <span data-key="window_credits_desc6"></span> <span data-key="by_user"></span> KAWKNAKNWKA</span><br>
           <span data-key="window_credits_last"></span><br>
           <a href="https://www.w3schools.com/">W3Schools</a>, <a href="https://developer.mozilla.org/en-US/docs/Web">Mozilla</a> <span data-key="window_credits_and"></span> <a href="https://chatgpt.com">ChatGPT</a>.
+          </article>
       </div>
     </div>
   </div>
@@ -263,7 +270,6 @@
       </div>
     </div>
   </div>
-  <div class="notification" id="happynewyear"><span data-key="happynewyear"></span></div>
     <div class="container">
       <div class="logocontainer">
         <div class="window eightyone" style="width: 200px">
@@ -307,7 +313,7 @@
               </div>
             </div>
             <div class="window-body">
-              <button disabled data-key="window_links_button_games"></button>
+              <button id="button_games" data-key="window_links_button_games"></button>
               <button id="button_updates" data-key="window_links_button_updates"></button>
               <button id="button_credits" data-key="window_links_button_credits"></button>
               <button id="button_settings" data-key="window_links_button_settings"></button>

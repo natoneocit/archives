@@ -4,6 +4,7 @@
     "window_links_title": "Ссылки",
     "window_credits_title": "Ведущие",
     "window_settings_title": "Настройки",
+    "window_warning_title": "Предупреждение",
     "footer_foot1": "Авторское право",
     "footer_foot2": "Все права защищены.",
 
@@ -18,9 +19,12 @@
     "window_credits_desc3": "Стиль Windows 98",
     "window_credits_desc4": "Логотипы сделаны с помощью",
     "window_credits_desc5": "Фоны цикла день/ночь Windows XP",
-    "window_credits_desc6": "Обои Windows 7 Ночь",
+    "window_credits_desc6": "Фоны цикла день/ночь Windows 7",
     "window_credits_last": "Посмотрел несколько руководств по HTML&CSS (и JS); однако могу указать только",
     "window_credits_and": "И",
+
+    "button_playruffle": "Играть",
+    "button_playflash": "Играть в Флеше",
 
     "happynewyear": "С новым годом!",
 

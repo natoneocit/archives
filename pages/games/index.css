@@ -1,0 +1,58 @@
+body {
+    background: black !important;
+    color: white !important;
+}
+body.game {
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    width: 100vw;
+    height: 100vh;
+}
+button {
+    cursor: url('/img/cursors/default/Default.png'), auto !important;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.window img {
+    width: 100%;
+}
+.window-body .image-body {
+    text-align: center;
+}
+.window-body .image-body img {
+    width: 80%;
+    height: 40%;
+}
+.window .title-bar {
+    text-shadow: 1px 1px #333333;
+    border: 0;
+}
+button, input, select { filter: grayscale(); }
+.window button:disabled, .window button:active {
+    background: #1f1f1f !important;
+}
+.window button:not(:disabled):hover {
+    box-shadow: none;
+    background: #4e4e4e;
+}
+.window button {
+    border: 0;
+    box-shadow: 0 0 2px #131313;
+    background: #3a3a3a;
+    color: white;
+}
+.window {
+    color: white;
+    background: #131313;
+    box-shadow: none;
+}
+.window .title-bar {
+    background: linear-gradient(0deg,#131313,#676967);
+}

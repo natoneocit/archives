@@ -15,6 +15,14 @@ function start() {
   }
   document.getElementById("button_apply").disabled = true;
 
+  
+  const iframex = document.getElementById("iframe");
+
+    const buttongames = document.getElementById("button_games");
+    buttongames.addEventListener("click", open_games);
+    if (iframex.src == "/pages/games") {
+    buttongames.disabled = true;
+    }
 
     const buttonupdates = document.getElementById("button_updates");
     buttonupdates.addEventListener("click", open_updates);
@@ -71,16 +79,27 @@ function start() {
 const hour = new Date().getHours();
 if (light == "def") {
   if (hour > 5) {
-    document.body.style.background = "url('/img/bg/EPIC_XP_v2_1.jpg')"; 
+    if (theme == "XP") {
+    document.body.style.background = "url('/img/bg/EPIC_XP_v2_1.jpg')";
+    }
+    if (theme == "7") {
+      document.body.style.background = "url('/img/bg/7/sun_rise.jpg')";
+    }
   }
   if (hour > 8) {
-    if (theme == "XP" || theme == "7") {
+    if (theme == "XP") {
       document.body.style.background = "url('/img/bg/EPIC_XP_v2_2.jpg')"; 
+    }
+    if (theme == "7") {
+      document.body.style.background = "url('/img/bg/7/def.jpg')";
     }
   }
   if (hour > 15) {
-    if (theme == "XP" || theme == "7") {
+    if (theme == "XP") {
       document.body.style.background = "url('/img/bg/EPIC_XP_v2_3.jpg')"; 
+    }
+    if (theme == "7") {
+      document.body.style.background = "url('/img/bg/7/evening.jpg')";
     }
     if (theme == "98") {
       document.body.classList.add("evening");
@@ -88,6 +107,9 @@ if (light == "def") {
   }
   
   if (hour > 16 || hour < 5) {
+    if (theme == "7") {
+      document.body.style.background = "url('/img/bg/7/night.jpg')";
+    }
     if (theme == "XP") { document.body.style.background = "url('/img/bg/EPIC_XP_v2_4.jpg')"; }
   }
 }
@@ -167,6 +189,10 @@ function themesettings() {
     document.getElementById("7").selected = true;
     document.getElementsByClassName("window").style = "--window-background-color: #000000;";
   }
+}
+function open_games() {
+    let iframex = document.getElementById("iframe");
+    iframex.src = "/pages/games";
 }
 function open_updates() {
     let iframex = document.getElementById("iframe");

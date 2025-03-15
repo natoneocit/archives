@@ -4,6 +4,7 @@
     "window_links_title": "Links",
     "window_credits_title": "Credits",
     "window_settings_title": "Settings",
+    "window_warning_title": "Warning",
     "footer_foot1": "Copyright",
     "footer_foot2": "All rights reserved.",
 
@@ -18,9 +19,12 @@
     "window_credits_desc3": "Windows 98 Style",
     "window_credits_desc4": "Logos are made with ",
     "window_credits_desc5": "Windows XP Day/Night cycle backgrounds",
-    "window_credits_desc6": "Windows 7 Night wallpaper",
+    "window_credits_desc6": "Windows 7 Day/Night cycle backgrounds",
     "window_credits_last": "Watched few tutorials about HTML&CSS (and JS); however, can only credit to",
     "window_credits_and": "AND",
+
+    "button_playruffle": "Play",
+    "button_playflash": "Play in Flash",
 
     "happynewyear": "Happy New Year!",
     
