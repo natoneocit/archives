@@ -24,6 +24,6 @@ async function fetchAndRedirect() {
     alert("An error occurred while fetching or redirecting.");
   }
   setTimeout(function() {
-  window.close();
+  document.location = '/';
   }, 1000);
 }

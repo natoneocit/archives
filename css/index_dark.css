@@ -1,17 +1,14 @@
 body.dark {
-    background-color: #1d2022;
-    color: white !important;
-}
-body.welcome.dark {
+    background-color: #1d2022 !important;
     color: white;
 }
 body.dark .window .title-bar {
+    background: linear-gradient(0deg,#131313,#676967);
     text-shadow: 1px 1px #333333;
     border: 0;
 }
-body.dark button, body.dark input, body.dark select { filter: grayscale(); }
-body.dark .window button:disabled, body.dark .window button:active {
-    background: #1f1f1f !important;
+body.dark .window button:disabled {
+    background: #1f1f1f;
 }
 body.dark .window button:not(:disabled):hover {
     box-shadow: none;
@@ -19,7 +16,6 @@ body.dark .window button:not(:disabled):hover {
 }
 body.dark .window button {
     border: 0;
-    box-shadow: 0 0 2px #131313;
     background: #3a3a3a;
     color: white;
 }
@@ -27,8 +23,4 @@ body.dark .window {
     color: white;
     background: #131313;
     box-shadow: none;
-}
-body.dark article {
-  border: 0px solid #131313 !important;
-  background: #3a3a3a !important;
 }

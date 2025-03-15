@@ -1,25 +1,13 @@
 body {
-    background: url("/img/bg/wavy.gif") right top no-repeat black !important;
+    background: black;
     cursor: default;
 }
-a { transition: 0.5s; text-decoration: underline !important; }
-a:hover { color: white !important; text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black, 0 0 2px black; }
 .reinbo {
     font-family: monospace;
     font-weight: bold;
     animation: colorRotate 3s linear 0s infinite;
 }
-.black-greytext {
-  animation: 5s black-greytext linear infinite;
-}
-@keyframes black-greytext {
-  0%,100% {
-      color: black;
-  }
-  50% {
-      color: grey;
-  }
-}
+
 @keyframes colorRotate {
   from {
     color: #6666ff;

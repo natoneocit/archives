@@ -4,29 +4,13 @@
     "window_links_title": "Links",
     "window_credits_title": "Credits",
     "window_settings_title": "Settings",
-    "window_warning_title": "Warning",
     "footer_foot1": "Copyright",
-    "footer_foot2": "All rights reserved.",
 
     "window_links_button_games": "Games",
     "window_links_button_updates": "Updates",
     "window_links_button_packs": "Packs",
     "window_links_button_credits": "Credits",
     "window_links_button_settings": "Settings",
-
-    "window_credits_desc1": "Windows XP Style",
-    "window_credits_desc2": "Windows 7 Style",
-    "window_credits_desc3": "Windows 98 Style",
-    "window_credits_desc4": "Logos are made with ",
-    "window_credits_desc5": "Windows XP Day/Night cycle backgrounds",
-    "window_credits_desc6": "Windows 7 Day/Night cycle backgrounds",
-    "window_credits_last": "Watched few tutorials about HTML&CSS (and JS); however, can only credit to",
-    "window_credits_and": "AND",
-
-    "button_playruffle": "Play",
-    "button_playflash": "Play in Flash",
-
-    "happynewyear": "Happy New Year!",
     
 
     "by_user": "by",
@@ -35,125 +19,21 @@
     "aka_tnp": "",
 
     "tnp_webs_title": "Webs",
+    "cont_tnp_desc_geckium": "is a Firefox theme that mimics older versions of Google Chrome.",
+    "cont_tnp_desc_geckium_alt": "Geckium is the Firefox theme that mimics older versions of Google Chrome.",
+    "cont_tnp_desc_v3": "is an ES5-based script that brings back the 2013 'Hitchhiker' YouTube layout based on Google JFK design language.",
+    "cont_tnp_desc_v3_alt": "Project VORAPIS (V3) is an ES5-based script that brings back the 2013 'Hitchhiker' YouTube layout based on Google JFK design language. This is your alternative solution to a fast and responsive YouTube frontend, made by combining performance with beauty, bringing back Google's best web layout.",
 
     "cont_tnp_button_info": "Info",
     "cont_tnp_button_install": "Install",
     "goback": "Go back",
 
-    "badge_beta": "β",
-    "badge_alpha": "α",
-    "badge_unfinished": "γ",
-
-    "options_default": "Default",
-    "options_light": "Light",
-    "options_dark": "Dark",
-    "options_seasonalflakes": "Turn seasonal flakes",
-    "options_on": "ON",
-    "options_off": "OFF",
-    "options_apply": "Apply",
-    "options_resetconf": "Reset configuration",
-
-    "page_welcome_title": "welcome!",
-    "page_welcome_desc": "click any button from the 'Links' window to get started!",
+    "badge_beta": "BETA",
+    "badge_alpha": "ALPHA",
+    "badge_unfinished": "UNFINISHED",
 
 
+    "window_title_updates": "Updates",
 
-    "window_title_updates": "Update logs",
-    "update_where": "Where?",
-    "update_clicktoview": "Click to view",
-    "update_secondclicktoview": "Secondly, click to view",
-    "update_clicktoseearchive": "Click to see an archived page.",
-    "update_questionmarkmeaning": "means if the date or update is unrecognized.",
-
-    "1012025": "[REAL COMEBACK]",
-    "1012025-1": "Completely different layout",
-    "1012025-2": "Temporaily removed the taskbar",
-    "1012025-3": " - Will add it back in future updates.",
-    "1012025-4": "Removed Flash Tests page",
-    "1012025-5": "Temporaily closed the 'Games' page",
-    "1012025-6": "because I really didn't have a time for storing those Flash games from hosting to hosting I guess.",
-    "1012025-7": "'Update logs' window extended from width",
-    "1012025-8": "Added Settings! Including those options:",
-    "1012025-9": "Theme",
-    "1012025-10": "Light",
-    "1012025-11": "'Seasonal flakes' (like the autumn, winter, spring, etc., all of which are coming soon)",
-    "1012025-12": "Added 'Packs' page (not fully finished... yet)",
-    "1012025-13": "Added version system",
-    "1012025-14": "Readded the Russian language",
-    "1012025-15": "Readded the logon sound back",
-
-    "22082022-1": "Added taskbar",
-
-    "10082022-1": "Fixed all flash games",
-    "10082022-2": "Added 3 flash games",
-
-    "3082022-1": "Fixed all pages.",
-    "3082022-2": "Added Singleplayer 1.5.2 on Eaglercraft page",
-
-    "24072022-1": "Removed 88x31 buttons",
-
-    "17072022-1": "Removed Minecraft server",
-
-    "14072022-1": "Removed Logon sound",
-    "14072022-2": "Removed Russian language",
-
-    "13072022-1": "Added Logon sound at home page",
-
-    "12072022-1": "Fixed flash games",
-    "12072022-2": "Updated logo and favicon",
-
-    "11072022-1": "Fixed Rotating Cube screensaver",
-    "11072022-2": "Removed Servers page from 'games/eaglercraft/index.html'. ",
-
-    "10072022-1": "Added Russian language but some pages aren't done yet",
-
-    "9072022-1": "Added language icons. Russian language may be published soon. ",
-    "9072022-2": "Fixed cursor, well, again",
-
-    "6072022-1": "Replaced 'Go Back' button text with the word 'Close' to look identical. ",
-    "6072022-2": "Fixed cursor",
-
-    "5072022": "[Quite big update]",
-    "5072022-1": "Removed 2 flash games that have been issued for 3D games or any problems persisted",
-    "5072022-2": "Fixed close button from this page",
-    "5072022-3": "Fixed 'Flash Test' button at: Games and Flash Games page",
-    "5072022-4": "Added credit at 'games/index.html'",
-
-    "4072022-1": "Added Eaglercraft server and Quick Play button. ",
-
-    "3072022-1": "Added Minecraft & Eaglercraft Servers page. ",
-    "3072022-2": "Removed questions. (?)",
-
-    "23062022-1": "Added Tutorials. ",
-
-    "12062022-1": "Removed Website UIs. ",
-
-    "10062022-1": "Better redirecting",
-    "10062022-2": "Added Minecraft Style. ",
-
-    "18052022-1": "Removed Minecraft Classic in Games page",
-    "18052022-2": "Added questions",
-    "18052022-3": "Stylesheet & website improved",
-
-    "15052022-1": "Added 88x31 buttons",
-
-    "1314052022-1": "Added some questions",
-
-    "10052022-1": "Updated 'eaglercraft/index.html'. It'll redirects you into eaglercraft.",
-
-    "8052022-1": "Removed Volume (uselessly)",
-
-    "1052022-1": "Added 'Updates' page ('updates/index.html')",
-
-    "30052022-1": "Added 1 flash game",
-
-    "30042022-1": "Added some pages",
-
-    "28032022-1": "Site redesigned",
-
-    "26032022-1": "Domain renamed",
-
-    "25032022-1": "Added Maintenance page ('maintenance.html')",
-    
-    "22032022-1": "Added some flash games"
+    "update_121324_title": "12/13/2024 [REAL COMEBACK]"
 }
