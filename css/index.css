@@ -4,7 +4,6 @@ body {
     background-attachment: fixed;
     background-size: cover;
     display: grid;
-    justify-content: center;
     cursor: auto;
     margin: 0;
 }
@@ -27,6 +26,7 @@ body.dark {
 }
 #winter { display: none; height: 100vh; position: fixed; }
 .container {
+    margin: 0 auto;
     display: inline-grid;
     width: 947px;
     margin-top: 6px;

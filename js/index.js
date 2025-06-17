@@ -27,6 +27,9 @@ function start() {
     const buttonupdates = document.getElementById("button_updates");
     buttonupdates.addEventListener("click", open_updates);
     
+    const buttonpacks = document.getElementById("button_packs");
+    buttonpacks.addEventListener("click", open_packs);
+
     const buttoncredits = document.getElementById("button_credits");
     buttoncredits.addEventListener("click", open_credits);
 
@@ -80,7 +83,7 @@ const hour = new Date().getHours();
 if (light == "def") {
   if (hour > 5) {
     if (theme == "XP") {
-    document.body.style.background = "url('/img/bg/EPIC_XP_v2_1.jpg')";
+    document.body.style.background = "url('/img/bg/XP/EPIC_XP_v2_1.jpg')";
     }
     if (theme == "7") {
       document.body.style.background = "url('/img/bg/7/sun_rise.jpg')";
@@ -88,15 +91,15 @@ if (light == "def") {
   }
   if (hour > 8) {
     if (theme == "XP") {
-      document.body.style.background = "url('/img/bg/EPIC_XP_v2_2.jpg')"; 
+      document.body.style.background = "url('/img/bg/XP/EPIC_XP_v2_2.jpg')"; 
     }
     if (theme == "7") {
-      document.body.style.background = "url('/img/bg/7/def.jpg')";
+      document.body.style.background = "url('/img/bg/7/day.jpg')";
     }
   }
   if (hour > 15) {
     if (theme == "XP") {
-      document.body.style.background = "url('/img/bg/EPIC_XP_v2_3.jpg')"; 
+      document.body.style.background = "url('/img/bg/XP/EPIC_XP_v2_3.jpg')"; 
     }
     if (theme == "7") {
       document.body.style.background = "url('/img/bg/7/evening.jpg')";
@@ -107,19 +110,21 @@ if (light == "def") {
   }
   
   if (hour > 16 || hour < 5) {
+    if (theme == "XP") { document.body.style.background = "url('/img/bg/XP/EPIC_XP_v2_4.jpg')"; }
     if (theme == "7") {
       document.body.style.background = "url('/img/bg/7/night.jpg')";
     }
-    if (theme == "XP") { document.body.style.background = "url('/img/bg/EPIC_XP_v2_4.jpg')"; }
   }
 }
 if (light == "light") {
-  if (theme == "XP") { document.body.style.background = "url('/img/bg/EPIC_XP_v2_2.jpg')"; }
-  if (theme == "7") { document.body.style.background = "url('/img/bg/7/def.jpg"; }
+  if (theme == "XP") { document.body.style.background = "url('/img/bg/XP/EPIC_XP_v2_2.jpg')"; }
+  if (theme == "7") { document.body.style.background = "url('/img/bg/7/day.jpg"; }
+  if (theme == "98") { document.body.style.background = "url('/img/bg/NT/day.jpg"; }
 }
 if (light == "dark") {
-  if (theme == "XP") { document.body.style.background = "url('/img/bg/EPIC_XP_v2_4.jpg')"; }
+  if (theme == "XP") { document.body.style.background = "url('/img/bg/XP/EPIC_XP_v2_4.jpg')"; }
   if (theme == "7") { document.body.style.background = "url('/img/bg/7/night.jpg"; }
+  if (theme == "98") { document.body.style.background = "url('/img/bg/NT/night.jpg"; }
 }
 }
 
@@ -197,6 +202,10 @@ function open_games() {
 function open_updates() {
     let iframex = document.getElementById("iframe");
     iframex.src = "/pages/updates";
+}
+function open_packs() {
+    let iframex = document.getElementById("iframe");
+    iframex.src = "/pages/packs/tnp";
 }
 function open_credits() {
   document.getElementById("creditscontainer").style.display = "flex";

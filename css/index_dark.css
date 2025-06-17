@@ -9,13 +9,18 @@ body.dark .window .title-bar {
     text-shadow: 1px 1px #333333;
     border: 0;
 }
-body.dark button, body.dark input, body.dark select { filter: grayscale(); }
+body.dark button, body.dark input, body.dark select {
+    background-color: #1f1f1f;
+    color: white;
+}
 body.dark .window button:disabled, body.dark .window button:active {
     background: #1f1f1f !important;
 }
 body.dark .window button:not(:disabled):hover {
     box-shadow: none;
-    background: #4e4e4e;
+}
+body.dark .window button:not(:disabled):hover, body.dark .window select:not(:disabled):focus {
+    background-color: #4e4e4e;
 }
 body.dark .window button {
     border: 0;
