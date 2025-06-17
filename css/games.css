@@ -1,0 +1,98 @@
+body {
+    background: url('/img/page_flash.gif') top center no-repeat,
+    black !important;
+    color: white !important;
+}
+body.game #container :host {
+    --ruffle-blue: black;
+    --ruffle-orange: white;
+}
+#altContent {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #DDD !important;
+    color: black !important;
+}
+body.game {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    background: black !important;
+    color: white !important;
+    overflow: hidden !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    cursor: url('/img/cursors/default/Default.png'), auto !important;
+}
+.row {
+    display: flex;
+    flex-direction: row;
+}
+.window img {
+    width: 100%;
+}
+.window-body .image-body {
+    text-align: center;
+}
+.window-body img {
+    width: 100%;
+}
+.window .title-bar {
+    text-shadow: 1px 1px #333333;
+    border: 0;
+}
+button, input, select { filter: grayscale(); }
+.window button:disabled, .window button:active {
+    background: #1f1f1f !important;
+}
+.window button:not(:disabled):hover {
+    box-shadow: none;
+    background: #4e4e4e;
+}
+.window button {
+    border: 0;
+    box-shadow: 0 0 2px #131313;
+    background: #3a3a3a;
+    color: white;
+}
+.window {
+    color: white;
+    background: #131313;
+    box-shadow: none;
+}
+.window .title-bar {
+    background: linear-gradient(0deg,#131313,#676967);
+}
+
+
+.window button:disabled, .window button:active {
+    background: #1f1f1f !important;
+}
+.window button:not(:disabled):hover {
+    box-shadow: none;
+    background: #4e4e4e;
+}
+.window button {
+    border: 0;
+    box-shadow: 0 0 2px #131313;
+    background: #3a3a3a;
+    color: white;
+}
+.window.flashWarning {
+    color: white;
+    background: #6e6e6e;
+    box-shadow: none;
+}
+.window.flashWarning, .window.flashWarning .title-bar {
+    border-radius: 0;
+}
+.window.flashWarning .title-bar {
+    background: linear-gradient(0deg,#6e6e6e,#DDD);
+}

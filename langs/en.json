@@ -5,6 +5,7 @@
     "window_credits_title": "Credits",
     "window_settings_title": "Settings",
     "window_warning_title": "Warning",
+    "window_notice_title": "Notice",
     "footer_foot1": "Copyright",
     "footer_foot2": "All rights reserved.",
 
@@ -64,6 +65,11 @@
     "update_secondclicktoview": "Secondly, click to view",
     "update_clicktoseearchive": "Click to see an archived page.",
     "update_questionmarkmeaning": "means if the date or update is unrecognized.",
+
+
+    "6172025-1": "Games are now available again, Flash variant isn't working yet",
+    "6172025-2": "Updated 'Credits' window",
+    "6172025-3": "Added day/night cycle backgrounds for 'Windows 7' style (made by KAWKNAKNWKA)",
 
     "1012025": "[REAL COMEBACK]",
     "1012025-1": "Completely different layout",

@@ -1,5 +1,5 @@
 function start() {
-  console.log("natively.neocities | Thank you for your patience.");
+  console.log("<font color='red'>natively.neocities | Thank you for your patience. javlar 2025</font>");
   const firstRun = localStorage.getItem("firstRun");
   const light = localStorage.getItem("light");
   const theme = localStorage.getItem("theme");
@@ -11,7 +11,7 @@ function start() {
     localStorage.setItem("theme", "XP");
     localStorage.setItem("light", "def");
     localStorage.setItem("locale", "en");
-    localStorage.setItem("seasonflakes", "ON");
+    localStorage.setItem("seasonflakes", "OFF");
   }
   document.getElementById("button_apply").disabled = true;
 
@@ -20,7 +20,7 @@ function start() {
 
     const buttongames = document.getElementById("button_games");
     buttongames.addEventListener("click", open_games);
-    if (iframex.src == "/pages/games") {
+    if (iframex.src == "/pages/games/index.html") {
     buttongames.disabled = true;
     }
 
@@ -198,10 +198,6 @@ function open_updates() {
     let iframex = document.getElementById("iframe");
     iframex.src = "/pages/updates";
 }
-function open_packs() {
-    let iframex = document.getElementById("iframe");
-    iframex.src = "/pages/packs/tnp";
-}
 function open_credits() {
   document.getElementById("creditscontainer").style.display = "flex";
 }
@@ -215,7 +211,7 @@ function close_settings() {
   document.getElementById("settingscontainer").style.display = "none";
 }
 
-  function start_packsinside() {
+  function start_linksinside() {
     let iframe = document.getElementById("iframe");
     iframe.onload = () => {
         const links = iframe.contentWindow.document.querySelectorAll('button');

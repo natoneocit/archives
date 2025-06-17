@@ -34,4 +34,7 @@ footer {
   body.dark footer {
     background: #111213cb !important;
   }
+  body.dark [role="tabpanel"] {
+    box-shadow: none !important;
+  }
 /*# sourceMappingURL=98.css.map */
